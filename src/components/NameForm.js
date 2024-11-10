@@ -1,9 +1,11 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import '../styles/NameForm.css';
 
 function NameForm() {
   const [name, setName] = useState("");
   const [error, setError] = useState("");
+  const navigate = useNavigate();
 
   const handleChange = (event) => {
     setName(event.target.value);
@@ -15,6 +17,7 @@ function NameForm() {
       setError("O nome não pode estar vazio.");
     } else {
       setError("");
+      navigate("/Quiz");
     }
   };
 
@@ -24,7 +27,12 @@ function NameForm() {
         <div className="name-form">
           <h2 className="form-title">Informe seu nome</h2>
           <label className="form-label">
-            <input className="form-input" value={name} onChange={handleChange} placeholder="Nome" />
+            <input
+              className="form-input"
+              value={name}
+              onChange={handleChange}
+              placeholder="Nome"
+            />
           </label>
         </div>
         {error && <p className="form-error">{error}</p>}

@@ -1,0 +1,91 @@
+.quizApp-container {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #007AA2;
+    position: relative;
+  }
+  
+  .quizApp-feedback {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    font-size: 1rem;
+  }
+  
+  .quizApp-feedback-green {
+    background-color: #28a745;
+  }
+  
+  .quizApp-feedback-red {
+    background-color: #dc3545;
+  }
+  
+  .quizApp-header {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    width: 80%;
+    text-align: center;
+  }
+  
+  .quizApp-header h2 {
+    font-size: 2rem;
+  }
+  
+  .quizApp-header h3 {
+    font-size: 1.25rem;
+  }
+  
+  .quizApp-options {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1rem;
+    width: 80%;
+  }
+  
+  .quizApp-option {
+    padding: 1rem;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: 1px solid #ccc;
+  }
+  
+  .quizApp-option:hover {
+    background-color: #e1e1e1;
+  }
+  
+  .quizApp-option.quizApp-selected {
+    background-color: #d1d1d1;
+    border: 1px solid #4bb5c1;
+  }
+  
+  .quizApp-nextButton {
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    color: white;
+    background-color: #8e44ad;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .quizApp-nextButton:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  

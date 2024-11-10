@@ -1,0 +1,153 @@
+[
+  {
+      "question": "[CESPE - TJ/CE] Se João é mais alto que Pedro e Pedro é mais alto que Lucas, quem é o mais baixo?",
+      "options": ["A) João", "B) Pedro", "C) Lucas", "D) Não é possível determinar"],
+      "answer": "C",
+      "difficulty": "easy"
+  },
+  {
+      "question": "[VUNESP - Polícia Civil/SP] Ana, Beatriz e Carlos são três irmãos. Ana é mais velha que Beatriz, e Beatriz é mais velha que Carlos. Quem é o mais novo?",
+      "options": ["A) Ana", "B) Beatriz", "C) Carlos", "D) Não é possível determinar"],
+      "answer": "C",
+      "difficulty": "easy"
+  },
+  {
+      "question": "[FCC - TRF/4ª Região] Em uma sequência de números, cada número é o dobro do anterior. Se o primeiro número é 1, qual é o quinto número?",
+      "options": ["A) 8", "B) 16", "C) 32", "D) 64"],
+      "answer": "C",
+      "difficulty": "easy"
+  },
+  {
+      "question": "[CESPE - MPU] Se uma proposição é verdadeira, qual é o valor lógico de sua negação?",
+      "options": ["A) Verdadeiro", "B) Falso", "C) Indeterminado", "D) Verdadeiro e Falso"],
+      "answer": "B",
+      "difficulty": "easy"
+  },
+  {
+      "question": "[CESGRANRIO - Banco do Brasil] Qual o próximo número na sequência: 2, 4, 8, 16, ___?",
+      "options": ["A) 24", "B) 30", "C) 32", "D) 64"],
+      "answer": "C",
+      "difficulty": "easy"
+  },
+  {
+      "question": "[VUNESP - TJ/SP] Se todos os cachorros são animais e Rex é um cachorro, qual das seguintes afirmações é verdadeira?",
+      "options": ["A) Rex é um animal", "B) Rex não é um animal", "C) Rex é uma planta", "D) Não é possível determinar"],
+      "answer": "A",
+      "difficulty": "easy"
+  },
+  {
+      "question": "[CESPE - PM/DF] Se 3x = 15, qual é o valor de x?",
+      "options": ["A) 3", "B) 4", "C) 5", "D) 6"],
+      "answer": "C",
+      "difficulty": "easy"
+  },
+  {
+      "question": "[FCC - TRT/2ª Região] Em uma sala, há 10 pessoas e cada uma cumprimenta as outras uma vez. Quantos cumprimentos ocorrem?",
+      "options": ["A) 10", "B) 20", "C) 45", "D) 90"],
+      "answer": "C",
+      "difficulty": "easy"
+  },
+  {
+      "question": "[CESPE - DPE/MA] Qual é a negação da proposição: 'Todos os gatos são pretos'?",
+      "options": ["A) Nenhum gato é preto", "B) Algum gato não é preto", "C) Todos os gatos são brancos", "D) Nenhum gato é branco"],
+      "answer": "B",
+      "difficulty": "easy"
+  },
+  {
+      "question": "[VUNESP - PC/SP] Qual o próximo termo da sequência: 1, 1, 2, 3, 5, ___?",
+      "options": ["A) 7", "B) 8", "C) 10", "D) 12"],
+      "answer": "B",
+      "difficulty": "easy"
+  },
+
+  {
+      "question": "[FCC - TRF/5ª Região] Em uma turma de 50 alunos, 30 gostam de Matemática, 25 de Português e 10 gostam de ambas. Quantos gostam de pelo menos uma das matérias?",
+      "options": ["A) 45", "B) 50", "C) 55", "D) 60"],
+      "answer": "A",
+      "difficulty": "medium"
+  },
+  {
+      "question": "[CESPE - TCU] Se Maria é mais velha que João e João é mais novo que Carlos, quem é o mais novo?",
+      "options": ["A) Maria", "B) João", "C) Carlos", "D) Não é possível determinar"],
+      "answer": "B",
+      "difficulty": "medium"
+  },
+  {
+      "question": "[FGV - SEFAZ/RJ] Qual o próximo número na sequência: 10, 20, 30, 40, ___?",
+      "options": ["A) 50", "B) 60", "C) 70", "D) 80"],
+      "answer": "A",
+      "difficulty": "medium"
+  },
+  {
+      "question": "[CESPE - PRF] Se duas proposições são verdadeiras, qual é o valor lógico da conjunção das duas?",
+      "options": ["A) Verdadeiro", "B) Falso", "C) Indeterminado", "D) Verdadeiro e Falso"],
+      "answer": "A",
+      "difficulty": "medium"
+  },
+  {
+      "question": "[FCC - TJ/AL] Considerando a proposição 'Se João estuda, então ele passa'. Se João passou, qual das opções é necessariamente verdadeira?",
+      "options": ["A) João estudou", "B) João não estudou", "C) João pode ter estudado", "D) João não passou"],
+      "answer": "C",
+      "difficulty": "medium"
+  },
+  {
+      "question": "[CESPE - TJ/SP] Se a proposição 'Se chover, então levo o guarda-chuva' é verdadeira e está chovendo, qual é a conclusão lógica?",
+      "options": ["A) Estou sem guarda-chuva", "B) Não está chovendo", "C) Levei o guarda-chuva", "D) Nenhuma conclusão"],
+      "answer": "C",
+      "difficulty": "medium"
+  },
+  {
+      "question": "[VUNESP - SEFAZ/SP] Considere as proposições: 'Se eu estudar, então passarei' e 'Não passei'. Qual é a conclusão?",
+      "options": ["A) Eu estudei", "B) Eu não estudei", "C) Passei", "D) Não há conclusão"],
+      "answer": "B",
+      "difficulty": "medium"
+  },
+  {
+      "question": "[CESGRANRIO - Petrobras] Qual a negação da proposição: 'Se eu trabalho, então ganho dinheiro'?",
+      "options": ["A) Eu trabalho e não ganho dinheiro", "B) Não trabalho e ganho dinheiro", "C) Não trabalho ou ganho dinheiro", "D) Eu trabalho e ganho dinheiro"],
+      "answer": "A",
+      "difficulty": "medium"
+  },
+  {
+      "question": "[FCC - TRT/15ª Região] Qual é a equivalência lógica da proposição: 'Se eu não estudo, então eu não passo'?",
+      "options": ["A) Eu passo e não estudo", "B) Se eu passo, então eu estudo", "C) Eu estudo ou eu passo", "D) Não há equivalência"],
+      "answer": "B",
+      "difficulty": "medium"
+  },
+  {
+      "question": "[CESPE - DPF] Se a proposição 'Se Maria vem, então Pedro sai' é falsa, o que isso implica?",
+      "options": ["A) Maria não vem e Pedro sai", "B) Maria vem e Pedro não sai", "C) Maria não vem e Pedro não sai", "D) Maria vem ou Pedro sai"],
+      "answer": "B",
+      "difficulty": "medium"
+  },
+  {
+      "question": "[CESGRANRIO - BNDES] Considere as proposições 'Todos os alunos estudam' e 'Nenhum aluno é burro'. A proposição 'Se um aluno estuda, então ele não é burro' é:",
+      "options": ["A) Verdadeira", "B) Falsa", "C) Indeterminada", "D) Nenhuma das anteriores"],
+      "answer": "A",
+      "difficulty": "medium"
+  },
+  {
+      "question": "[CESPE - PM/DF] A proposição 'Se João é inteligente, então ele passa' tem qual negação?",
+      "options": ["A) João é inteligente e não passa", "B) João não é inteligente e não passa", "C) João passa e não é inteligente", "D) João não passa ou não é inteligente"],
+      "answer": "A",
+      "difficulty": "medium"
+  },
+  {
+      "question": "[CESPE - TJ/AL] Qual a forma equivalente da proposição: 'Se eu não acordo cedo, então eu não chego na hora'?",
+      "options": ["A) Se eu chego na hora, então eu acordei cedo", "B) Eu acordo cedo ou chego atrasado", "C) Eu não acordo cedo e chego na hora", "D) Nenhuma das anteriores"],
+      "answer": "A",
+      "difficulty": "medium"
+  },
+  {
+      "question": "[VUNESP - TJ/SP] Se Pedro é mais baixo que Paulo e Paulo é mais baixo que João, quem é o mais alto?",
+      "options": ["A) João", "B) Paulo", "C) Pedro", "D) Não é possível determinar"],
+      "answer": "A",
+      "difficulty": "medium"
+  },
+  {
+      "question": "[CESPE - PRF] Se a proposição 'Se hoje é sexta, então amanhã é sábado' é verdadeira, qual das opções é também verdadeira?",
+      "options": ["A) Amanhã é sábado e hoje é sexta", "B) Hoje é sexta ou amanhã é sábado", "C) Se amanhã não é sábado, então hoje não é sexta", "D) Não há conclusão"],
+      "answer": "C",
+      "difficulty": "medium"
+  }
+]
