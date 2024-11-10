@@ -7,9 +7,9 @@
     min-height: 100vh;
     background-color: #007AA2;
     position: relative;
-  }
-  
-  .quizApp-feedback {
+}
+
+.quizApp-feedback {
     position: absolute;
     top: 1rem;
     right: 1rem;
@@ -18,41 +18,41 @@
     font-weight: bold;
     color: white;
     font-size: 1rem;
-  }
-  
-  .quizApp-feedback-green {
+}
+
+.quizApp-feedback-green {
     background-color: #28a745;
-  }
-  
-  .quizApp-feedback-red {
+}
+
+.quizApp-feedback-red {
     background-color: #dc3545;
-  }
-  
-  .quizApp-header {
+}
+
+.quizApp-header {
     background-color: white;
     padding: 2rem;
     border-radius: 10px;
     width: 80%;
     text-align: center;
-  }
-  
-  .quizApp-header h2 {
+}
+
+.quizApp-header h2 {
     font-size: 2rem;
-  }
-  
-  .quizApp-header h3 {
+}
+
+.quizApp-header h3 {
     font-size: 1.25rem;
-  }
-  
-  .quizApp-options {
+}
+
+.quizApp-options {
     display: flex;
     flex-direction: column;
     gap: 1rem;
     margin-top: 1rem;
     width: 80%;
-  }
-  
-  .quizApp-option {
+}
+
+.quizApp-option {
     padding: 1rem;
     background-color: white;
     border-radius: 5px;
@@ -61,18 +61,18 @@
     cursor: pointer;
     transition: background-color 0.3s ease;
     border: 1px solid #ccc;
-  }
-  
-  .quizApp-option:hover {
+}
+
+.quizApp-option:hover {
     background-color: #e1e1e1;
-  }
-  
-  .quizApp-option.quizApp-selected {
+}
+
+.quizApp-option.quizApp-selected {
     background-color: #d1d1d1;
     border: 1px solid #4bb5c1;
-  }
-  
-  .quizApp-nextButton {
+}
+
+.quizApp-nextButton {
     margin-top: 2rem;
     padding: 1rem 2rem;
     font-size: 1rem;
@@ -82,10 +82,78 @@
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-  }
-  
-  .quizApp-nextButton:disabled {
+}
+
+.quizApp-nextButton:disabled {
     background-color: #ccc;
     cursor: not-allowed;
-  }
-  
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .quizApp-header {
+        width: 90%;
+        padding: 1.5rem;
+    }
+
+    .quizApp-header h2 {
+        font-size: 1.5rem;
+    }
+
+    .quizApp-header h3 {
+        font-size: 1rem;
+    }
+
+    .quizApp-options {
+        width: 90%;
+    }
+
+    .quizApp-option {
+        padding: 0.8rem;
+    }
+
+    .quizApp-nextButton {
+        padding: 0.8rem 1.5rem;
+        font-size: 0.9rem;
+    }
+
+    .quizApp-feedback {
+        top: 0.5rem;
+        right: 0.5rem;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .quizApp-header {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .quizApp-header h2 {
+        font-size: 1.2rem;
+    }
+
+    .quizApp-header h3 {
+        font-size: 0.9rem;
+    }
+
+    .quizApp-options {
+        width: 100%;
+    }
+
+    .quizApp-option {
+        padding: 0.5rem;
+    }
+
+    .quizApp-nextButton {
+        padding: 0.5rem 1rem;
+        font-size: 0.8rem;
+    }
+
+    .quizApp-feedback {
+        top: 0.3rem;
+        right: 0.3rem;
+        font-size: 0.8rem;
+    }
+}
